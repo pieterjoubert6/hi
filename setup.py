@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='toolbox',
+    name='moment',
     version='0.0.3',
     author='Pieter Joubert',
     author_email='pieter@jedimindtricks.co.za',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/Muls/toolbox/issues"
     },
     license='MIT',
-    packages=['toolbox'],
+    packages=['moment'],
     install_requires=['requests'],
 )
